@@ -6,23 +6,48 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8453A31F2CB15EC200ED14FF /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8453A31E2CB15EC200ED14FF /* FacebookCore */; };
+		847234562CAECB0B002BDF7C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 847234552CAECB0B002BDF7C /* FirebaseAnalytics */; };
+		847234582CAECB0B002BDF7C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 847234572CAECB0B002BDF7C /* FirebaseDatabase */; };
+		8472345A2CAECB0B002BDF7C /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 847234592CAECB0B002BDF7C /* FirebaseMessaging */; };
+		84B88AB82CB3DF9000F3D255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B88AB02CB3DF9000F3D255 /* Preview Assets.xcassets */; };
+		84B88AB92CB3DF9000F3D255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B88AB32CB3DF9000F3D255 /* Assets.xcassets */; };
+		84B88ABA2CB3DF9000F3D255 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B88AB42CB3DF9000F3D255 /* GoogleService-Info.plist */; };
+		84B88ABB2CB3DF9000F3D255 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B88AA72CB3DF9000F3D255 /* Constants.swift */; };
+		84B88ABC2CB3DF9000F3D255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B88AA82CB3DF9000F3D255 /* ContentView.swift */; };
+		84B88ABD2CB3DF9000F3D255 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B88AA92CB3DF9000F3D255 /* WebView.swift */; };
+		84B88ABF2CB3DF9000F3D255 /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B88AAC2CB3DF9000F3D255 /* viewModel.swift */; };
+		84B88AC02CB3DF9000F3D255 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B88AAE2CB3DF9000F3D255 /* Urls.swift */; };
+		84B88AC12CB3DF9000F3D255 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B88AB22CB3DF9000F3D255 /* APIManager.swift */; };
+		84B88AC32CB3DF9000F3D255 /* testPrilkaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B88AB62CB3DF9000F3D255 /* testPrilkaApp.swift */; };
+		84B88AC62CB3E04000F3D255 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 84B88AC52CB3E04000F3D255 /* AppsFlyerLib-Static */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		847234322CAEC9DA002BDF7C /* testPrilka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testPrilka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B88AA72CB3DF9000F3D255 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84B88AA82CB3DF9000F3D255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84B88AA92CB3DF9000F3D255 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		84B88AAC2CB3DF9000F3D255 /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
+		84B88AAE2CB3DF9000F3D255 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		84B88AB02CB3DF9000F3D255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84B88AB22CB3DF9000F3D255 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		84B88AB32CB3DF9000F3D255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B88AB42CB3DF9000F3D255 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84B88AB62CB3DF9000F3D255 /* testPrilkaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPrilkaApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		847234342CAEC9DA002BDF7C /* testPrilka */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testPrilka;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8472342F2CAEC9DA002BDF7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8472345A2CAECB0B002BDF7C /* FirebaseMessaging in Frameworks */,
+				84B88AC62CB3E04000F3D255 /* AppsFlyerLib-Static in Frameworks */,
+				847234582CAECB0B002BDF7C /* FirebaseDatabase in Frameworks */,
+				847234562CAECB0B002BDF7C /* FirebaseAnalytics in Frameworks */,
+				8453A31F2CB15EC200ED14FF /* FacebookCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +57,7 @@
 		847234292CAEC9DA002BDF7C = {
 			isa = PBXGroup;
 			children = (
-				847234342CAEC9DA002BDF7C /* testPrilka */,
+				84B88AB72CB3DF9000F3D255 /* testPrilka */,
 				847234332CAEC9DA002BDF7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +68,71 @@
 				847234322CAEC9DA002BDF7C /* testPrilka.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84B88AAB2CB3DF9000F3D255 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				84B88AA82CB3DF9000F3D255 /* ContentView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		84B88AAD2CB3DF9000F3D255 /* MainViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84B88AAC2CB3DF9000F3D255 /* viewModel.swift */,
+			);
+			path = MainViewModel;
+			sourceTree = "<group>";
+		};
+		84B88AAF2CB3DF9000F3D255 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84B88AAE2CB3DF9000F3D255 /* Urls.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84B88AB12CB3DF9000F3D255 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84B88AB02CB3DF9000F3D255 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84B88AB72CB3DF9000F3D255 /* testPrilka */ = {
+			isa = PBXGroup;
+			children = (
+				84B88AC92CB3EF5700F3D255 /* Helpers */,
+				84B88AC82CB3EF4600F3D255 /* WebView */,
+				84B88AAB2CB3DF9000F3D255 /* MainView */,
+				84B88AAD2CB3DF9000F3D255 /* MainViewModel */,
+				84B88AAF2CB3DF9000F3D255 /* Models */,
+				84B88AB12CB3DF9000F3D255 /* Preview Content */,
+				84B88AB32CB3DF9000F3D255 /* Assets.xcassets */,
+				84B88AB42CB3DF9000F3D255 /* GoogleService-Info.plist */,
+				84B88AB62CB3DF9000F3D255 /* testPrilkaApp.swift */,
+			);
+			path = testPrilka;
+			sourceTree = "<group>";
+		};
+		84B88AC82CB3EF4600F3D255 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				84B88AA92CB3DF9000F3D255 /* WebView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		84B88AC92CB3EF5700F3D255 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84B88AB22CB3DF9000F3D255 /* APIManager.swift */,
+				84B88AA72CB3DF9000F3D255 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +150,13 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				847234342CAEC9DA002BDF7C /* testPrilka */,
-			);
 			name = testPrilka;
 			packageProductDependencies = (
+				847234552CAECB0B002BDF7C /* FirebaseAnalytics */,
+				847234572CAECB0B002BDF7C /* FirebaseDatabase */,
+				847234592CAECB0B002BDF7C /* FirebaseMessaging */,
+				8453A31E2CB15EC200ED14FF /* FacebookCore */,
+				84B88AC52CB3E04000F3D255 /* AppsFlyerLib-Static */,
 			);
 			productName = testPrilka;
 			productReference = 847234322CAEC9DA002BDF7C /* testPrilka.app */;
@@ -94,6 +186,11 @@
 			);
 			mainGroup = 847234292CAEC9DA002BDF7C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				847234542CAECB0B002BDF7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8453A31D2CB15EC200ED14FF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				84B88AC42CB3E04000F3D255 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 847234332CAEC9DA002BDF7C /* Products */;
 			projectDirPath = "";
@@ -109,6 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B88AB82CB3DF9000F3D255 /* Preview Assets.xcassets in Resources */,
+				84B88AB92CB3DF9000F3D255 /* Assets.xcassets in Resources */,
+				84B88ABA2CB3DF9000F3D255 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B88ABB2CB3DF9000F3D255 /* Constants.swift in Sources */,
+				84B88ABC2CB3DF9000F3D255 /* ContentView.swift in Sources */,
+				84B88ABD2CB3DF9000F3D255 /* WebView.swift in Sources */,
+				84B88ABF2CB3DF9000F3D255 /* viewModel.swift in Sources */,
+				84B88AC02CB3DF9000F3D255 /* Urls.swift in Sources */,
+				84B88AC12CB3DF9000F3D255 /* APIManager.swift in Sources */,
+				84B88AC32CB3DF9000F3D255 /* testPrilkaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +359,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"testPrilka/Preview Content\"";
+				DEVELOPMENT_TEAM = U423669TKH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -266,9 +375,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sv.testPrilka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -280,8 +393,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"testPrilka/Preview Content\"";
+				DEVELOPMENT_TEAM = U423669TKH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,9 +409,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sv.testPrilka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -322,6 +441,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8453A31D2CB15EC200ED14FF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		847234542CAECB0B002BDF7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+		84B88AC42CB3E04000F3D255 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8453A31E2CB15EC200ED14FF /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8453A31D2CB15EC200ED14FF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		847234552CAECB0B002BDF7C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 847234542CAECB0B002BDF7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		847234572CAECB0B002BDF7C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 847234542CAECB0B002BDF7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		847234592CAECB0B002BDF7C /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 847234542CAECB0B002BDF7C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		84B88AC52CB3E04000F3D255 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84B88AC42CB3E04000F3D255 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8472342A2CAEC9DA002BDF7C /* Project object */;
 }
